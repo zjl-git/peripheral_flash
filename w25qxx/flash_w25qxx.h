@@ -9,13 +9,13 @@ extern "C"
 #include "flash_w25qxx_port.h"
 #include "flash_w25qxx_config.h"
 
-#if define W25Q128
+#if defined(W25Q128)
 #define FLASH_BLOCK_NUM             256
-#elif define W25Q64
+#elif defined(W25Q64)
 #define FLASH_BLOCK_NUM             128
-#elif define W25Q32
+#elif defined(W25Q32)
 #define FLASH_BLOCK_NUM             64
-#elif define W25Q16
+#elif defined(W25Q16)
 #define FLASH_BLOCK_NUM             32
 #else
 #define FLASH_BLOCK_NUM             0
