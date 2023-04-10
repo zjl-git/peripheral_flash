@@ -21,12 +21,12 @@ extern "C"
 #define FLASH_BLOCK_NUM             0
 #endif
 
-#define FLASH_PAGE_NUM          16 * FLASH_SECTOR_NUM    
-#define FLASH_SECTOR_NUM        16 * FLASH_SECTOR_NUM
+#define FLASH_PAGE_NUM              16 * FLASH_SECTOR_NUM    
+#define FLASH_SECTOR_NUM            16 * FLASH_SECTOR_NUM
 
-#define FLASH_PAGE_SIZE         256
-#define FLASH_SECTOR_SIZE       16 * FLASH_PAGE_SIZE
-#define FLASH_BLOCK_SIZE        16 * FLASH_SECTOR_SIZE
+#define FLASH_PAGE_SIZE             256
+#define FLASH_SECTOR_SIZE           16 * FLASH_PAGE_SIZE
+#define FLASH_BLOCK_SIZE            16 * FLASH_SECTOR_SIZE
 
 #define FLASH_CS_LOW()              flash_w25qxx_port_cs_low()
 #define FLASH_CS_HIGH()             flash_w25qxx_port_cs_high()
