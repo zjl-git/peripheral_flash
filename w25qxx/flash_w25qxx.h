@@ -22,7 +22,7 @@ extern "C"
 #endif
 
 #define FLASH_PAGE_NUM              16 * FLASH_SECTOR_NUM    
-#define FLASH_SECTOR_NUM            16 * FLASH_SECTOR_NUM
+#define FLASH_SECTOR_NUM            16 * FLASH_BLOCK_NUM
 
 #define FLASH_PAGE_SIZE             256
 #define FLASH_SECTOR_SIZE           16 * FLASH_PAGE_SIZE
